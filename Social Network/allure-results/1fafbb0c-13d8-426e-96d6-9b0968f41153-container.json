@@ -1,0 +1,1 @@
+{"uuid":"1fafbb0c-13d8-426e-96d6-9b0968f41153","name":"com.socialnetwork.api.UsersAPITest","children":["24a0b844-c1b3-4b21-ada5-883940e5c32a"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1697294880540,"stop":1697294880909}],"afters":[],"start":1697294880528,"stop":1697294882047}

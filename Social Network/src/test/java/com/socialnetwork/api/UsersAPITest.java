@@ -49,9 +49,14 @@ public class UsersAPITest {
 
         Response response = UserHelper.getUserData(queryParams);
         Assert.assertEquals(response.getStatusCode(),200);
-        System.out.println("body"+response.jsonPath().get("name"));
 
-        Assert.assertNotNull(response.jsonPath().get("id"));
+        RestLogger.endTestCase("getUserById");
+
+
+        Assert.assertNotNull(response.jsonPath().get("id"),"User fetched successfully");
+        Assert.assertNotNull(response.jsonPath().get("name"));
+        Assert.assertNotNull(response.jsonPath().get("email"));
+
     }
 
     @Test(description = "Validate user is fetched successfully by valid name")

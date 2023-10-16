@@ -10,7 +10,7 @@ public class RestLogger {
         Log.info("--------"+TestCaseName +"----------------");
     }
 
-    public static void endTestCase(){
+    public static void endTestCase(String TestCaseName){
         Log.info("--------"+ "End Of Test" +"----------------");
     }
 
